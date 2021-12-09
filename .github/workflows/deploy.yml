@@ -16,6 +16,7 @@ jobs:
           
           script: |
             cd test_1
-            git clone https://github.com/erikaesthetic/autodeploytest.git
+            cd  autodeploytest
+            git pull
             echo "Deployment is ok"
 
