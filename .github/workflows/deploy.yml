@@ -15,7 +15,8 @@ jobs:
           username: ${{secrets.SSH_USERNAME}}
           
           script:
-            cd /root/test
+            mkdir test_1
+            cd test_1
             git clone https://github.com/erikaesthetic/autodeploytest.git
             echo "Deployment is ok"
 
